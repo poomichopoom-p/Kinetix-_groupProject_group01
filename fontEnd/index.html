@@ -1,20 +1,27 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stlyesheet" href="stlye.css">
-  </head>
 
-  <body>
+    <style>
+        /*--------- Carousel --------*/
+    </style>
+
+
+</head>
+
+<body>
     <nav class="flex bg-green-600 gap-4 justify-center">
         <a href="#" class="p-4">
             <img src="/fontEnd/Img/image (1).png" alt="logo">
         </a>
         <!-- logo -->
-        
+
         <!-- <h1 class="self-center text-5xl font-bold">
             Kinetix
         </h1> -->
@@ -35,14 +42,14 @@
         </a>
         <!-- login -->
         <a href="#" class="self-center">
-            <img src="/fontEnd/Img/png-clipart-shopping-cart-icon-shopping-cart-black-design.png" class="w-7 h-7 "/>
+          <img src="/fontEnd/Img/png-clipart-shopping-cart-icon-shopping-cart-black-design.png" class="w-7 h-7 "/>
         </a>
         <!-- find -->
         <a href="#" class="self-center">
             <img src="/fontEnd/Img/png-clipart-shopping-cart-icon-shopping-cart-black-design.png" class="w-7 h-7  "/>
         </a>
         <!-- cart -->
-        
+
     </nav>
     <!-- Hero -->
     <section>
@@ -51,6 +58,9 @@
         </a>
     </section>
     <!-- section_01_bigPic -->
+
+
+   
 
         <section class="p-10 ">
             <!-- stak overfrow -->
@@ -103,106 +113,170 @@
                     <img src="/fontEnd/Img/เหมียววว.jpg" alt="Deal" class="w-60"/>
                     <p>
 
-                    </p>
-                </a>
-                <!-- item_03 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_04 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_05 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_06 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_07 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_08 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_09 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_10 -->
-                <a href="#">
-                    <img src="" alt="" />
-                    <p>
-
-                    </p>
-                </a>
-                <!-- item_11 -->
-            </div>
-      
-        </section>
-    <!-- section_02 sale_deal -->
-    <section >
-        <!-- stak_overflow_flex -->
-        <div>
-            <div>
-                <img src="" alt="" />
-                <p>
-                    
                 </p>
-            </div>
-            <!-- box_01 -->
-            <div>
-            <div>
+            </a>
+            <a href="#">
+                <img src="/Img/เหมียววว.jpg" alt="Deal" class="w-60" />
+                <p>
+
+                </p>
+            </a>
+            <a href="#">
+                <img src="/Img/เหมียววว.jpg" alt="Deal" class="w-60" />
+                <p>
+
+                </p>
+            </a>
+            <a href="#">
+                <img src="/Img/เหมียววว.jpg" alt="Deal" class="w-60" />
+                <p>
+
+                </p>
+            </a>
+            <!-- item_03 -->
+            <a href="#">
                 <img src="" alt="" />
                 <p>
 
                 </p>
-            </div>
-            <!-- box_02 -->
-        <div>
-            <div>
+            </a>
+            <!-- item_04 -->
+            <a href="#">
                 <img src="" alt="" />
                 <p>
 
                 </p>
-            </div>
-            <!-- box_03 -->
-        <div>
-            <div>
+            </a>
+            <!-- item_05 -->
+            <a href="#">
                 <img src="" alt="" />
                 <p>
 
                 </p>
-            </div>
-            <!-- box_04 -->
+            </a>
+            <!-- item_06 -->
+            <a href="#">
+                <img src="" alt="" />
+                <p>
+
+                </p>
+            </a>
+            <!-- item_07 -->
+            <a href="#">
+                <img src="" alt="" />
+                <p>
+
+                </p>
+            </a>
+            <!-- item_08 -->
+            <a href="#">
+                <img src="" alt="" />
+                <p>
+
+                </p>
+            </a>
+            <!-- item_09 -->
+            <a href="#">
+                <img src="" alt="" />
+                <p>
+
+                </p>
+            </a>
+            <!-- item_10 -->
+            <a href="#">
+                <img src="" alt="" />
+                <p>
+
+                </p>
+            </a>
+            <!-- item_11 -->
         </div>
-      </section>
-      <!-- section_03 -->
+
+    </section>
+    <!-- section_02 sale_deal -->
+    
+
+           <section class="min-h-screen p-8">
+        <div class="max-w-7xl mx-auto">
+            <h2 class="text-xl font-semibold text-gray-800 mb-8">Filter the Product</h2>
+
+            <div class="flex flex-wrap items-end gap-8 mb-12">
+                <div class="flex gap-10">
+                    <button onclick="toggleFilter('discounted')" id="btn-discounted"
+                        class="filter-btn flex flex-col items-center gap-2 text-gray-400 hover:text-gray-600 transition-all">
+                        <div
+                            class="icon-bg w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center transition-all bg-white">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZNGq9_b4Z0Gw-_HXeJLlI0wOPUJnT020Xg&s"
+                                class="w-10 h-10"></i>
+                        </div>
+                        <span class="text-xs">Discounted</span>
+                    </button>
+
+                    <button onclick="toggleFilter('men')" id="btn-men"
+                        class="filter-btn flex flex-col items-center gap-2 text-gray-400 hover:text-gray-600 transition-all">
+                        <div
+                            class="icon-bg w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center transition-all bg-white">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZNGq9_b4Z0Gw-_HXeJLlI0wOPUJnT020Xg&s"
+                                class="w-15 h-15"></i>
+                        </div>
+                        <span class="text-xs">For Men</span>
+                    </button>
+
+                    <button onclick="toggleFilter('women')" id="btn-women"
+                        class="filter-btn flex flex-col items-center gap-2 text-gray-400 hover:text-gray-600 transition-all">
+                        <div
+                            class="icon-bg w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center transition-all bg-white">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4ZNGq9_b4Z0Gw-_HXeJLlI0wOPUJnT020Xg&s"
+                                class="w-5 h-5"></i>
+                        </div>
+                        <span class="text-xs">For Women</span>
+                    </button>
+                </div>
+
+                <select id="sel-brand" onchange="applyFilters()"
+                    class="bg-white border border-gray-300 text-xs rounded-md px-3 py-2 outline-none"
+                    style="min-width:160px;">
+                    <option value="all">All Brands</option>
+                    <option value="Nike">Nike</option>
+                    <option value="Adidas">Adidas</option>
+                </select>
+
+                <select id="sel-size" onchange="applyFilters()"
+                    class="bg-white border border-gray-300 text-xs rounded-md px-3 py-2 outline-none"
+                    style="min-width: 160px;">
+                    <option value="all">All Size</option>
+                    <option value="7">Size 7</option>
+                    <option value="8">Size 8</option>
+                    <option value="9">Size 9</option>
+                    <option value="10">Size 10</option>
+                </select>
+
+                <div class="relative ml-auto w-full md:w-64">
+                    <input type="text" id="search-input" onkeyup="applyFilters()" placeholder="Search"
+                        class="w-full bg-white border border-gray-300 text-xs rounded-full px-4 py-2 pl-10 outline-none focus:ring-1 focus:ring-gray-400">
+                    <i data-lucide="search" class="w-4 h-4 text-gray-400 absolute left-3 top-2.5"></i>
+                </div>
+            </div>
+
+            <div class="relative group">
+                <button onclick="scrollGrid(-1)"
+                    class="absolute -left-5 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-gray-50 border border-gray-100">
+                    <i data-lucide="chevron-left" class="w-5 h-5 text-gray-600"></i>
+                </button>
+
+                <div id="product-grid"
+                    class="flex gap-6 overflow-x-auto no-scrollbar scroll-smooth snap-x snap-mandatory px-2 min-h-[300px]">
+                </div>
+
+                <button onclick="scrollGrid(1)"
+                    class="absolute -right-5 top-1/2 -translate-y-1/2 z-10 bg-white shadow-md rounded-full p-2 hover:bg-gray-50 border border-gray-100">
+                    <i data-lucide="chevron-right" class="w-5 h-5 text-gray-600"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- section_03 sale deal -->
+  
        
        <section class="mx-8 my-8 w-[1440px]">
         <p class="p-8 text-4xl font-semibold">
@@ -287,7 +361,138 @@
          <script src="index.js">
                
         </script>
-        
+<!--             Java script_section_04 -->
+        <script>
+        const products = [{
+            id: 1, name: "Air Max Runner", brand: "Nike", category: "men", size: "10", price: 120, discounted: true, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        },
+        {
+            id: 2, name: "Cloud Walker", brand: "Adidas", category: "women", size: "8", price: 95, discounted: false, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        },
+        {
+            id: 3, name: "Speed Pro", brand: "Nike", category: "men", size: "9", price: 150, discounted: true, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        }
+
+            ,
+        {
+            id: 4, name: "Daily Comfort", brand: "Adidas", category: "women", size: "7", price: 80, discounted: true, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        }
+
+            ,
+        {
+            id: 5, name: "Sport Classic", brand: "Nike", category: "women", size: "8", price: 110, discounted: false, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        }
+
+            ,
+        {
+            id: 6, name: "Pro Hiker", brand: "Adidas", category: "men", size: "10", price: 130, discounted: false, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        }
+
+            ,
+        {
+            id: 7, name: "Lite Gym", brand: "Nike", category: "women", size: "7", price: 75, discounted: true, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        }
+
+            ,
+        {
+            id: 8, name: "Street Style", brand: "Adidas", category: "men", size: "9", price: 105, discounted: false, img: "https://cdn02.pinkoi.com/product/ENTfYM3i/0/1/640x530.jpg"
+        }
+
+        ];
+
+        let currentFilters = {
+            discounted: false,
+            category: 'all',
+            brand: 'all',
+            size: 'all',
+            search: ''
+        }
+
+            ;
+
+        function render(data) {
+            const grid = document.getElementById('product-grid');
+
+            if (data.length === 0) {
+                grid.innerHTML = '<div class="w-full text-center py-10 text-gray-400">No products found</div>';
+                return;
+            }
+
+            grid.innerHTML = data.map(p => ` <div class="min-w-[280px] flex-none snap-center bg-white p-2 rounded-xl shadow-sm" > <div class="bg-gray-100 aspect-[4/3] rounded-lg mb-3 overflow-hidden" > <img src="${p.img}" class="w-full h-full object-cover" > </div> <h3 class="text-sm font-medium text-gray-800" >$ {
+                    p.name
+                }
+
+                </h3> <p class="text-xs text-gray-500" >$ {
+                    p.brand
+                }
+
+                • Size $ {
+                    p.size
+                }
+
+                </p> <p class="text-sm font-semibold text-gray-900" >$$ {
+                    p.price
+                }
+
+                </p> </div> `).join('');
+        }
+
+        function applyFilters() {
+            currentFilters.brand = document.getElementById('sel-brand').value;
+            currentFilters.size = document.getElementById('sel-size').value;
+            currentFilters.search = document.getElementById('search-input').value.toLowerCase();
+
+            const filtered = products.filter(p => {
+                if (currentFilters.discounted && !p.discounted) return false;
+                if (currentFilters.category !== 'all' && p.category !== currentFilters.category) return false;
+                if (currentFilters.brand !== 'all' && p.brand !== currentFilters.brand) return false;
+                if (currentFilters.size !== 'all' && p.size !== currentFilters.size) return false;
+                if (currentFilters.search && !p.name.toLowerCase().includes(currentFilters.search)) return false;
+                return true;
+            });
+
+            render(filtered);
+        }
+
+        function toggleFilter(type) {
+            if (type === 'discounted') {
+                currentFilters.discounted = !currentFilters.discounted;
+                document.getElementById('btn-discounted').classList.toggle('active');
+            }
+
+            else {
+                // If clicking same category, turn it off. Otherwise, set to new category.
+                currentFilters.category = (currentFilters.category === type) ? 'all' : type;
+
+                // Update visuals
+                document.getElementById('btn-men').classList.remove('active');
+                document.getElementById('btn-women').classList.remove('active');
+
+                if (currentFilters.category !== 'all') {
+                    document.getElementById(`btn-$ {
+                            currentFilters.category
+                        }
+
+                        `).classList.add('active');
+                }
+            }
+
+            applyFilters();
+        }
+
+        function scrollGrid(direction) {
+            const grid = document.getElementById('product-grid');
+
+            grid.scrollBy({
+                left: direction * 300, behavior: 'smooth'
+            });
+        }
+
+        // Initial Load
+        render(products);
+        lucide.createIcons();
+    </script>
+<!--         Java_script_section03 -->
   
          <hr />
   </body>
@@ -306,3 +511,4 @@
         </p>
   </footer>
 </html>
+
